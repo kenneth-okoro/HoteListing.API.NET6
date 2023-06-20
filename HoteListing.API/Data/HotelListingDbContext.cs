@@ -39,7 +39,7 @@ namespace HoteListing.API.Data
             modelBuilder.Entity<Hotel>().HasData(
                 new Hotel
                 {
-                    HotelId = 1,
+                    Id = 1,
                     Name = "Sandals Resort and Spa",
                     Address = "Negril",
                     CountryId = 1,
@@ -47,7 +47,7 @@ namespace HoteListing.API.Data
                 },
                 new Hotel
                 {
-                    HotelId = 2,
+                    Id = 2,
                     Name = "Comfort Suites",
                     Address = "George Town",
                     CountryId = 3,
@@ -55,7 +55,7 @@ namespace HoteListing.API.Data
                 },
                 new Hotel
                 {
-                    HotelId = 3,
+                    Id = 3,
                     Name = "Grand Palldium",
                     Address = "Nassua",
                     CountryId = 2,
